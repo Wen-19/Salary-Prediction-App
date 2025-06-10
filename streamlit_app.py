@@ -1,13 +1,13 @@
 import streamlit as st  # Import Streamlit library for creating the web app
 import numpy as np  # Import NumPy for numerical operations
 
-# Set the title of the app
+# Setting the tittle of the app
 st.title("Title: Bio Data")
 
-# Display a short introductory message
+# Displaying a short introductory message
 st.write("This is my first web app.")
 
-# Create input fields for user data collection
+# Creating inputt fields for user data colllection
 first_name = st.text_input("First Name")  # Text input for entering first name
 last_name = st.text_input("Last Name")  
 gender = st.selectbox("Gender", ["Male", "Female"])  
